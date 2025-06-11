@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Beautiful Girlfriend</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script defer src="scrollReveal.js"></script>
+</head>
+<body class="lovely-bg">
+  <nav class="top-nav">
+    <a href="main.html" class="nav-btn">Home</a>
+    <a href="previously.html" class="nav-btn">Previously</a>
+    <a href="you.html" class="nav-btn">You</a>
+    <a href="me.html" class="nav-btn">Me</a>
+    <a href="foryou.html" class="nav-btn">For You</a>
+    <a href="aboutus.html" class="nav-btn">About Us</a>
+  </nav>
+  <main>
+    <div class="main-flex reveal fade-in">
+      <div class="main-text">
+        <h1>For my beautiful girlfriend</h1>
+        <div class="big-paragraph">
+          Happy Birthday to the Sweetest and the most Beautiful Girl in the World.
+          I Love You So Much Mera Dhruva.❤️❤️(mwwuuaahhhhh)
+        </div>
+        <button class="sound-button" onclick="playSound()">
+          <i class="fas fa-music"></i> Happy Birthday Dhru
+        </button>
+      </div>
+      <div class="main-photo">
+        <img src="images/beautiful.jpg" alt="Beautiful Girlfriend" />
+      </div>
+    </div>
+  </main>
+  <footer class="footer-love">
+    Made with <span class="heart">♥</span> by Akshat
+  </footer>
+
+  <script>
+    function playSound() {
+      const audio = new Audio('sounds/HappyBirthday.mp3');
+      audio.play();
+    }
+  </script>
+</body>
+</html> 

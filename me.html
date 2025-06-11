@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Me</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script defer src="scrollReveal.js"></script>
+</head>
+<body class="lovely-bg">
+  <nav class="top-nav">
+    <a href="main.html" class="nav-btn">Home</a>
+    <a href="previously.html" class="nav-btn">Previously</a>
+    <a href="you.html" class="nav-btn">You</a>
+    <a href="me.html" class="nav-btn">Me</a>
+    <a href="foryou.html" class="nav-btn">For You</a>
+    <a href="aboutus.html" class="nav-btn">About Us</a>
+  </nav>
+  <main>
+    <div class="fade-in">
+      <h1 class="special-heading">This is Me</h1>
+      <div class="button-container">
+        <button class="sound-button" onclick="playSound1()">
+          <i class="fas fa-music"></i> I Love You❤️
+        </button>
+        <button class="sound-button" onclick="playSound2()">
+          <i class="fas fa-music"></i> Meri Dhruuu
+        </button>
+        <button class="sound-button" onclick="playSound3()">
+          <i class="fas fa-music"></i> Mera Golaaa
+        </button>
+      </div>
+    </div>
+  </main>
+  <footer class="footer-love">
+    Made with <span class="heart">♥</span> by Akshat
+  </footer>
+
+  <script>
+    function playSound1() {
+      const audio = new Audio('sounds/ILoveYou.mp3');
+      audio.play();
+    }
+    function playSound2() {
+      const audio = new Audio('sounds/MeriDhru.mp3');
+      audio.play();
+    }
+    function playSound3() {
+      const audio = new Audio('sounds/MeraGola.mp3');
+      audio.play();
+    }
+  </script>
+</body>
+</html> 
